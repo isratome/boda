@@ -1,0 +1,322 @@
+html::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: black;    
+}
+html::-webkit-scrollbar-thumb
+{
+    background-color: #6fc0fd;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    //background:linear-gradient(black, #2D9EF7, black);
+	background-attachment:fixed;
+    background-size: cover;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;
+    margin: 0px;
+    
+}
+main
+{
+    width: 100%;
+    margin: auto;
+}
+.portada
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0px;
+    background: rgb(254,254,254);
+    background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(84,198,252,1) 30%, rgba(8,67,215,1) 100%);
+}
+.logo
+{
+    width: 20%;
+    margin: auto;
+    margin-bottom: -30px;
+}
+.foto_portada
+{
+    width: 30%;
+    margin: auto;
+}
+div h1
+{
+    font-family: "Great Vibes", cursive;
+    color: white;
+    text-align: center;
+}
+h2
+{
+    color: white;
+    margin: 0px;
+    font-size:40px;
+    text-align: center;
+    font-family: "Cormorant", serif;
+}
+h3
+{
+    color: white;
+    margin: 0px;
+    font-size: 110px;
+    text-align: center;
+    font-family: "Cormorant", serif;
+}
+.versiculos
+{
+    display: flex;
+    justify-content: space-evenly;
+    background: #0843d7;
+    align-items: center;
+    padding: 90px 0px;
+    
+}
+.pVersiculos
+{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+}
+.aVersiculos
+{
+    width: 50%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.imagenversiculos
+{
+    height: 250px;
+}
+.imagenversiculos2
+{
+    height: 250px;
+    transform: scaleX(-1);
+}
+.invitacion
+{
+    padding: 50px 20px 20px 20px;
+    background: rgb(254,254,254);
+    background: linear-gradient(0deg, rgba(254,254,254,1) 0%, rgba(84,198,252,1) 30%, rgba(8,67,215,1) 100%);
+}
+.invitacion p
+{
+    color: rgb(6, 44, 139);
+    font-size: 25px;
+    text-align: center;
+    width: 60%;
+    margin: 0px auto;
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+}
+.invitacion h1
+{
+    font-size: 50px;
+    margin: 10px;
+}
+.flor_esquina
+{
+    width: 20%;
+    margin-bottom: -280px;
+}
+.aInvitacion
+{
+    margin-top: -280px;
+    display: flex;
+    justify-content: flex-end;
+}
+.flor_esquina2
+{
+    transform: rotate(180deg);
+    width: 20%;
+}
+.ubicacion
+{
+    margin: 40px 0px;
+}
+.ubicacion p
+{
+    margin: 10px 0px;
+    color: white;
+    font-size: 40px;
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #062c8b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ubicacion p:nth-child(4)
+{
+    font-size: 20px;
+    text-align: center;
+}
+.ubicacion p a
+{
+    border-radius: 10px;
+    color: white;
+    background-color: #062c8b;
+    margin: 10px;
+    padding: 5px 25px;
+}
+.regalo p a
+{
+    border-radius: 10px;
+    color: white;
+    background-color: #062c8b;
+    margin: 10px;
+    padding: 5px 25px;
+}
+.ubicacion p a, .regalo p a:link
+{ 
+    text-decoration: none;
+}
+.ubicacion p a:hover
+{
+    background-color: rgba(84,198,252,1);
+}
+.regalo p a:hover
+{
+    background-color: rgba(84,198,252,1);
+}
+.link-ubi
+{
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+.ubicacionflor1
+{
+    width: 20%;
+}
+.regalo
+{
+    background: rgb(254,254,254);
+    background: linear-gradient(180deg, #fefefe 0%, #54c6fc 30%, #0843d7 100%);
+}
+.regalo p
+{
+    color: white;
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px;
+}
+.regalo article
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blanco
+{
+    background-color: white;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    font-size: 1px !important;
+    color: rgb(255, 255, 255) !important;
+    margin: 0px 20px !important;
+}
+.azul
+{
+    background-color: #0e46d4;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    font-size: 1px !important;
+    color: #314AEA !important;
+    margin: 0px 20px !important;
+}
+.celeste
+{
+    background-color: #4CCBF3;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    font-size: 1px !important;
+    color: #4CCBF3 !important;
+    margin: 0px 20px !important;
+}
+.marino
+{
+    background-color: #071C85;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    font-size: 1px !important;
+    color: #071C85 !important;
+    margin: 0px 20px !important;
+}
+.rojo
+{
+    background-color: red;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    font-size: 1px !important;
+    color: #EB1313 !important;
+    margin: 0px 20px !important;
+}
+.granate
+{
+    background-color: #BF0404;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    font-size: 1px !important;
+    color: #AB1414 !important;
+    margin: 0px 20px !important;
+}
+.p1, .p3, .p5
+{
+    font-size: 40px !important;
+}
+.p2
+{
+    width: 50%;
+    margin: auto  !important;
+    text-align: center;
+}
+.p3, .p5, .p7, .p9
+{
+    margin: 60px 0px 0px 0px !important;
+}
+.p5
+{
+    margin-bottom: 15px !important;
+}
+.p10
+{
+    font-size: 20px !important;
+}
+.regalo h1
+{
+    margin: 20px 0px 0px 0px !important;
+}
+.sobre
+{
+    width: 10%;
+}
+.flor6, .flor8
+{
+    width: 20%;
+}
