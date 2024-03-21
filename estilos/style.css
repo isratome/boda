@@ -27,6 +27,8 @@ main
 {
     width: 100%;
     margin: auto;
+    background: rgb(254,254,254);
+    background: linear-gradient(180deg, #fefefe, #54c6fc, #54c6fc, #0843d7, #0843d7, #54c6fc, #54c6fc, #fefefe, #fefefe, #54c6fc, #54c6fc, #0843d7, #0843d7);
 }
 .portada
 {
@@ -34,8 +36,8 @@ main
     flex-direction: column;
     justify-content: center;
     padding: 30px 0px;
-    background: rgb(254,254,254);
-    background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(84,198,252,1) 30%, rgba(8,67,215,1) 100%);
+    /*background: rgb(254,254,254);
+    background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(84,198,252,1) 30%, rgba(8,67,215,1) 100%);*/
 }
 .logo
 {
@@ -74,7 +76,7 @@ h3
 {
     display: flex;
     justify-content: space-evenly;
-    background: #0843d7;
+    /*background: #0843d7;*/
     align-items: center;
     padding: 90px 0px;
     
@@ -105,8 +107,8 @@ h3
 .invitacion
 {
     padding: 50px 20px 20px 20px;
-    background: rgb(254,254,254);
-    background: linear-gradient(0deg, rgba(254,254,254,1) 0%, rgba(84,198,252,1) 30%, rgba(8,67,215,1) 100%);
+    /*background: rgb(254,254,254);
+    background: linear-gradient(0deg, rgba(254,254,254,1) 0%, rgba(84,198,252,1) 30%, rgba(8,67,215,1) 100%);*/
 }
 .invitacion p
 {
@@ -205,8 +207,8 @@ h3
 }
 .regalo
 {
-    background: rgb(254,254,254);
-    background: linear-gradient(180deg, #fefefe 0%, #54c6fc 30%, #0843d7 100%);
+    /*background: rgb(254,254,254);
+    background: linear-gradient(180deg, #fefefe 0%, #54c6fc 30%, #0843d7 100%);*/
 }
 .regalo p
 {
