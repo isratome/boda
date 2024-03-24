@@ -26,7 +26,6 @@ body
 main
 {
     width: 100%;
-    margin: auto;
     background: rgb(254,254,254);
     background: linear-gradient(180deg, #fefefe, #54c6fc, #54c6fc, #0843d7, #0843d7, #54c6fc, #54c6fc, #fefefe, #fefefe, #54c6fc, #54c6fc, #0843d7, #0843d7);
 }
@@ -321,4 +320,118 @@ h3
 .flor6, .flor8
 {
     width: 20%;
+}
+@media screen and (min-width: 0px) and (max-width: 500px)
+{
+    main
+    {
+        width: 100%;
+    }
+    .logo
+    {
+        width: 100%;
+        margin: 160px 0px 0px 0px;
+    }    
+    div h1
+    {
+        font-size: 70px;
+        margin-top: 0px;
+    }
+    .foto_portada
+    {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    h2
+    {
+        font-size:40px;
+        margin: 10px auto;
+    }
+    h3
+    {
+        font-size: 60px;
+    }
+    .portada
+    {
+        padding: 0px;
+    }
+    .versiculos
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 90px 0px;
+        border: solid 2px yellow;
+    }
+    .versiculos img 
+    {
+        height: 200px;
+    }
+    .aVersiculos
+    {
+        width: 90%;
+    }
+    .pVersiculos
+    {
+        width: 100%;
+        margin: 20px 0px;
+        font-size: 50px;
+    }
+    .invitacion
+    {
+        padding: 5px;
+    }
+    .invitacion p
+    {
+        width: 80%;
+        font-size: 32px;
+        margin: 5px auto;
+    }
+    .flor_esquina
+    {
+        margin-bottom: -80px;
+    }
+    .aInvitacion
+    {
+        margin-top: 0px;
+    }
+    .flor_esquina2
+    {
+        margin-top: -80px;
+    }
+    .ubicacionflor1
+    {
+        width: 50%;
+    }
+    .regalo
+    {
+        border: solid 2px red;
+
+    }
+    .flor6, .flor8
+    {
+        width: 50%;
+    }
+    .regalo p
+    {
+        border: solid 2px red;
+    }
+    .p2
+    {
+        width: 90%;
+    }
+    .sobre
+    {
+        width: 20%;
+    }
+    .blanco, .azul, .celeste, .marino, .rojo, .granate
+    {
+        height: 40px;
+    }
+    .p7, .p9
+    {
+        padding: 0px 10px;
+        text-align: center;
+    }
+
 }
