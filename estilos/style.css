@@ -422,17 +422,12 @@ h3
         font-size: 40px;
         text-align: center;
     }
-    .regalo
-    {
-        border: solid 2px red;
-    }
     .flor6, .flor8
     {
         width: 50%;
     }
     .regalo article
     {
-        border: solid 2px red;
         display: flex;
         align-items: center;
         justify-content: space-around;
