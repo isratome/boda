@@ -165,6 +165,7 @@ h3
     font-size: 20px;
     text-align: center;
 }
+
 .ubicacion p a
 {
     border-radius: 10px;
@@ -329,27 +330,27 @@ h3
     }
     .logo
     {
-        width: 100%;
-        margin: 160px 0px 0px 0px;
+        width: 80%;
+        margin: 80px auto 0px auto;
     }    
     div h1
     {
-        font-size: 70px;
+        font-size: 50px;
         margin-top: 0px;
     }
     .foto_portada
     {
-        width: 90%;
-        margin-bottom: 50px;
+        width: 50%;
+        margin-bottom: 30px;
     }
     h2
     {
-        font-size:40px;
+        font-size:30px;
         margin: 10px auto;
     }
     h3
     {
-        font-size: 60px;
+        font-size: 45px;
     }
     .portada
     {
@@ -360,8 +361,7 @@ h3
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 90px 0px;
-        border: solid 2px yellow;
+        padding: 50px 0px;
     }
     .versiculos img 
     {
@@ -375,21 +375,26 @@ h3
     {
         width: 100%;
         margin: 20px 0px;
-        font-size: 50px;
+        font-size: 30px;
     }
     .invitacion
     {
         padding: 5px;
     }
+    .invitacion h1
+    {
+        font-size: 40px;
+    }
     .invitacion p
     {
         width: 80%;
-        font-size: 32px;
-        margin: 5px auto;
+        font-size: 22px;
+        margin: 10px auto;
+        text-align: center;
     }
     .flor_esquina
     {
-        margin-bottom: -80px;
+        margin-bottom: -60px;
     }
     .aInvitacion
     {
@@ -397,41 +402,68 @@ h3
     }
     .flor_esquina2
     {
-        margin-top: -80px;
+        margin-top: -60px;
     }
     .ubicacionflor1
     {
         width: 50%;
     }
+    .ubicacion
+    {
+        margin: 100px 0px;
+    }
+    .ubicacion p:nth-child(4)
+    {
+        font-size: 15px;
+        padding: 0px 5px;
+    }
+    .ubicacion p:nth-child(6)
+    {
+        font-size: 40px;
+        text-align: center;
+    }
     .regalo
     {
         border: solid 2px red;
-
     }
     .flor6, .flor8
     {
         width: 50%;
     }
-    .regalo p
+    .regalo article
     {
         border: solid 2px red;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
     .p2
     {
         width: 90%;
+        margin-top: 20px !important;
+    }
+    .p4
+    {
+        padding: 0px 10px;
     }
     .sobre
     {
         width: 20%;
     }
-    .blanco, .azul, .celeste, .marino, .rojo, .granate
-    {
-        height: 40px;
-    }
     .p7, .p9
     {
         padding: 0px 10px;
         text-align: center;
+    }
+    .blanco, .azul, .celeste, .marino, .rojo
+    {
+        width: 55px !important;
+        height: 55px;
+        margin: 0px !important;
+    }
+    .granate
+    {
+        display: none !important;
     }
 
 }
